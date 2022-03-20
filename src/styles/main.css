@@ -1,0 +1,40 @@
+@import url(Containers.css);
+
+:root{
+    --ColorWhite: #fff;
+    --ColorBlack: #000;
+    --ColorBlue: #1f3e72;
+    --colorGreenLow: #c9e265;
+    --colorGreenMedium: #7ed957;
+    --colorGreenHight: #008037 ;
+}
+
+body{
+    background-color: var(--ColorWhite);
+    font-family: 'Fredoka', sans-serif;
+    color: var(--ColorBlac);
+}
+
+/*  Estilos lalo */
+
+.btn{
+    border-radius: 15px;
+    border-color: var(--colorGreenMedium);
+    color: var(--colorGreenHight);
+    background: none;
+    width: 80%;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.btn:hover{
+    border-radius: 10px;
+    border: none;
+    background-color: #008037;
+    color: var(--ColorWhite);
+    box-shadow: 0px 10px 10px rgba(51, 50, 50, 0.349);
+}
+
+.titStyle{
+    color: var(--colorGreenHight);
+}

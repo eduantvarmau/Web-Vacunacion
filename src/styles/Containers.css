@@ -1,0 +1,154 @@
+
+
+/*Cuarta seccion*/
+.emergency{
+    display: flex;
+    flex-direction: row;
+}
+
+.image-doctor{
+    width: 100%;
+}
+
+
+.doctor{
+    width: 100%;
+}
+.doctor2{
+    width: 100px;
+}
+.title{
+    margin-top: 90px;
+    padding-left: 70px;
+}
+
+.descript{
+    font-size: 18px;
+    padding-top: 30px;
+    text-align: justify;
+    padding-left: 70px;
+}
+
+.cardp{
+    margin-left: 70px;
+    margin-top: 80px;
+    background-clip: border-box;
+    border: 2px solid rgba(228, 225, 225, 0.349);
+    border-radius: 8px;
+}
+
+.cardp:hover{
+    border: none;
+    box-shadow: 0px 10px 10px rgba(228, 225, 225, 0.349);
+}
+
+.description{
+    width: 80%;   
+}
+
+.icon{
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.card-body{
+    margin-top: 20px;
+}
+
+.card-title{
+    font-size: 18px;
+}
+
+
+
+
+.centrar{
+    display: flex;
+    justify-content: center;
+}
+
+.centrarimg{
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+}
+.container-fluid-footer{
+    background-color: rgba(228, 225, 225, 0.349);
+    padding-top: 30px;
+    margin-top: 30px;
+    
+    
+}
+h3{
+    color:var(--colorGreenHight);
+}
+.tamaño{
+    width: 110px;
+    padding-left: 20px;
+}
+.derecha{
+    text-align: right;
+
+}
+.doctor2{
+    width: auto;
+}
+
+
+
+/*-----------------------------------------------------------------*/
+
+
+    
+
+
+
+#sec3{
+    padding-top: 3cm;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: center;
+    padding-left: 1.5cm;
+        
+}
+.dropdown{
+   width: 500px;
+   
+}
+
+
+@media screen and ( max-width:600px){
+
+    .card-enmedio{
+        display: none;
+    }
+    .vacunas-img{
+        display: none;
+    }
+    #sec3{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .emergency{
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+    }
+    .tamaño1{
+        width: auto;
+    }
+    .dropdown{
+        display: flex;
+        width: auto;
+    }
+    .container-fluid-footer{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    
+}
