@@ -15,8 +15,6 @@ body{
     color: var(--ColorBlac);
 }
 
-/*  Estilos lalo */
-
 .btn{
     border-radius: 15px;
     border-color: var(--colorGreenMedium);
@@ -37,4 +35,8 @@ body{
 
 .titStyle{
     color: var(--colorGreenHight);
+}
+
+.jumbotronContacto{
+    background-color: var(--colorGreenMedium);
 }
